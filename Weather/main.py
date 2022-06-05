@@ -1,7 +1,7 @@
 from tkinter import Tk, Frame, Label, StringVar, Entry, Button, Text
 from tkinter import messagebox as mb
 import datetime
-from currency_and_weather.Weather.model import get_weather_by_city
+from Weather.model import get_weather_by_city
 
 def set_weather_description(*args):
     """Устанавливает температуру и описание
