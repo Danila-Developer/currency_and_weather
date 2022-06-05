@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from Currency.model import fetch_currency, get_currency
+from currency_and_weather.Currency.model import fetch_currency, get_currency
 from tkinter import messagebox as mb
 
 def change_currency(*args):
